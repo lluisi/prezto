@@ -17,3 +17,5 @@ if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/runcoms/git-plugin" ]]; then
   source "${ZDOTDIR:-$HOME}/.zprezto/runcoms/git-plugin"
 fi
 
+export EDITOR=/usr/local/bin/vim
+export VISUAL=/usr/local/bin/vim
